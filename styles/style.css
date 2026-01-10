@@ -78,12 +78,13 @@ nav {
   padding: 115px 120px 180px
 }
 
-#banner .banner-content .banner-info{
+#banner .banner-content .banner-details {
   margin-bottom: 32px;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
-.banner-info .banner-title{
+.banner-title p{
+  background-color: #FFFFFF ;
   display: flex;
   max-width: 230px;
   margin: 0 auto;
@@ -278,9 +279,120 @@ nav {
 .sln-list ul {
   font-size: 16px;
   list-style-image: url(./assets/CheckCircle.png);
+
+
 }
 
+
+
+
+/* Ready Part */
+
+.ready-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #93999f22;
+  margin-bottom: 120px;
+  border-radius: 12px;
+}
+.ready-heading {
+  padding: 80px 40px 24px;
+}
+.ready-heading h2 {
+  color: #001931;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.ready-info {
+  padding: 0 40px 80px;
+}
+.ready-btn {
+  background-color: #469165;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.ready-btn:hover {
+  background-color: #2c5f41;
+}
+.ready-heading p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+.ready-info p {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
 
 /* footer part */
 
 
+footer {
+  background-color: #001931;
+}
+.footer-info {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+}
+.footer-logo {
+  width: 350px;
+}
+.footer-logo img {
+  width: 140px;
+}
+.social-links {
+  width: 250px;
+}
+.social-links p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+
+}
+.social-icons a {
+  font-size: 20px;
+  color: #ffffff;
+}
+hr {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.footer-bottom {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0 30px;
+}
+.footer-bottom p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fafafa;
+}
