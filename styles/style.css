@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* shared style  */
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -11,6 +13,7 @@
  
 }
 
+/* nav style */
 header{
   
   padding-top:0 ;
@@ -61,4 +64,223 @@ nav {
 
 }
 
-#
+/* banner section  */
+#banner {
+  background-image: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .banner-content {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 115px 120px 180px
+}
+
+#banner .banner-content .banner-info{
+  margin-bottom: 32px;
+  background-color: #FFFFFF;
+}
+
+.banner-info .banner-title{
+  display: flex;
+  max-width: 230px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  color: #469165;
+  padding: 8px 0;
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  
+}
+
+.banner-info .banner-heading {
+  margin-bottom: 16px ;
+  color: #FFFFFF;
+
+
+
+}
+
+.banner-info .banner-heading h1{
+  color: #FFFFFF;
+  opacity: 90%;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.banner-content .banner-btn {
+  display: flex;
+  max-width: 465px;
+  margin: 0 auto;
+}
+
+.banner-btn .vault {
+  display: flex;
+  background-color: #469165;
+  max-width: 251px;
+  padding: 16px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.banner-btn .works {
+  display: flex;
+  max-width: 198px;
+  margin: 0 auto;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFFFFF;
+  border: 1px solid white;
+  padding: 14px 14px;
+  border-radius: 5px;
+
+
+}
+.vault:hover {
+  background-color: #2c5f41;
+
+}
+
+.works:hover {
+  background-color: rgba( 0,0,0,.378);
+}
+
+/* section part */
+
+#card-section {
+  background-color: #93999f22;
+}
+#card-section .note-heading {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.note-heading h2 {
+  padding-top: 50px;
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.note-heading p {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+}
+#card-section .cards-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+.card {
+  width: 320px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ffffff;
+}
+.card-image {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #f95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 70px;
+}
+.img {
+  width: 32px;
+  height: 32px;
+}
+.card h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #001931;
+  margin-bottom: 16px;
+  padding: 0 24px;
+}
+.card p {
+  color: #627382;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 21px;
+  padding: 0 24px;
+}
+
+
+/* solution part */
+
+.sln-container {
+  width: 85%;
+  max-width: 1360px;
+  height: 600px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.img-knowledge {
+  width: 600px;
+}
+.sln-info {
+  width: 700px;
+}
+.sln-info h4 {
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.sln-info h2 {
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.sln-info p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.sln-list {
+  margin-left: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.sln-list li {
+  line-height: 20px;
+  color: #001931;
+}
+.sln-list ul {
+  font-size: 16px;
+  list-style-image: url(./assets/CheckCircle.png);
+}
+
+
+/* footer part */
+
+
